@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\.ceex-webdesign\.de$ [NC]
+RewriteRule ^(.*)$ http://www.ceex-webdesign.de/$1 [L,R=301]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
