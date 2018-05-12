@@ -35,7 +35,7 @@
     },
     "versionFirst": "4.6.7",
     "uniqCompNum": 42,
-    "versionPublish": "4.6.7",
+    "versionPublish": "4.7.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -44,7 +44,9 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
@@ -1578,7 +1580,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Durch meinen Beruf konnte ich bereits an unzähligen Webanwendungen und Seiten &nbsp;arbeiten und kann Ihnen versichern, dass ich ein sehr gutes Verständnis davon habe, wie man Unternehmen online darstellt. Durch mein technisches know-how und meine Marketing Wissen, kann ich Ihnen helfen, ihre Produkte im Internet zu verkaufen oder Neukunden zu gewinnen.&nbsp;</div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Durch meinen Beruf konnte ich bereits an unzähligen Webanwendungen und Seiten arbeiten und kann Ihnen versichern, dass ich ein sehr gutes Verständnis davon habe, wie man Unternehmen online darstellt. Durch mein technisches know-how und mein Marketing Wissen, kann ich Ihnen helfen, ihre Produkte im Internet zu verkaufen oder Neukunden zu gewinnen.&nbsp;</div>\n        </div>\n    </div>\n</section>",
           "_cid": "qOIlnApntx",
           "_anchor": "content1-p",
           "_protectedParams": [],
@@ -1636,7 +1638,7 @@
             }
           },
           "_name": "content12",
-          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#ff3366\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>Jahrelange Erfahrung im Online Marketing</b></li><li><b>Mittelständler sollten leichten Zugang zu moderner Technologie erhalten</b></li><li><b>Leidenschaft für Webdesign und Webentwicklung</b></li><li><b>Ich lebe seit 5 Jahren in Berlin und habe für diverse Startups gearbeitet</b></li><li><b>Zu viele Agenturen verlangen zu viel Geld für mittelmäßige Arbeit</b></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#ff3366\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>Jahrelange Erfahrung im Online Marketing</b></li><li><b>Mittelständler sollten leichten Zugang zu moderner Technologie erhalten</b></li><li><b>Leidenschaft für Webdesign und Webentwicklung</b></li><li><b style=\"font-size: 1rem;\">5 Jahre Erfahrung durch Arbeit in Startups</b></li><li><b style=\"font-size: 1rem;\">Zu viele Agenturen verlangen zu viel Geld für mittelmäßige Arbeit</b><br></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qOImoPy7zU",
           "_anchor": "content12-r",
           "_protectedParams": [],
